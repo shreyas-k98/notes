@@ -1,0 +1,27 @@
+# .gitignore
+
+# Ignore database and migration files
+db.sqlite3
+/migrations/
+
+# Ignore static files
+/static/
+
+# Ignore media files
+/media/
+
+# Ignore virtual environment
+/venv/
+
+# Ignore secret key
+/myproject/settings/secret.py
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local development settings
+/myproject/settings/local.py
+.vscode
